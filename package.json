@@ -1,0 +1,24 @@
+{
+  "name": "choixplot",
+  "private": true,
+  "homepage": "https://FlorentMoulon.github.io/choixplot",
+  "scripts": {
+    "predeploy":"npm run build",
+    "deploy": "gh-pages -d build",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "gh-pages": "^3.2.3",
+    "next": "12.0.8",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-redux": "^7.2.6"
+  },
+  "devDependencies": {
+    "eslint": "8.7.0",
+    "eslint-config-next": "12.0.8"
+  }
+}
